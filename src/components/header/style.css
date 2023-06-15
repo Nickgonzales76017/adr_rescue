@@ -1,0 +1,65 @@
+.whiteHeader, .redHeader {
+	position: fixed;
+	left: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	box-shadow: 0 0 5px #F7F0DC;
+	z-index: 50;
+}
+.redHeader {
+	background-color: #CA0303;
+	top: 3rem;
+	height: 5.0499rem;
+}
+
+.whiteHeader {
+	background-color: #190A03;
+	top: 0;
+	justify-content: flex-end;
+	height: 3rem;
+}
+
+.whiteHeader a, .redHeader a {
+	display: inline-block;
+	padding: 0 1rem;
+	color: #fff;
+	text-decoration: none;
+	line-height: 5rem;
+}
+
+.whiteHeader a:hover,
+.whiteHeader a:active,
+.redHeader a:hover,
+.redHeader a:active {
+	background: rgba(0, 0, 0, 0.2);
+}
+
+.whiteHeader a.logo, .redHeader a.logo {
+	display: flex;
+	align-items: center;
+	padding: 1rem 0;
+	background-color: transparent;
+}
+
+.whiteHeader a.logo {
+	color: "#190A03"
+}
+
+.logo h1 {
+	padding: 0 0.5rem;
+	font-size: 1.5rem;
+	line-height: 2rem;
+	font-weight: 400;
+}
+
+@media (max-width: 639px) {
+	.logo h1 {
+		display: none;
+	}
+}
+
+.whiteHeader nav a.active, .redHeader nav a.active {
+	background: rgba(0, 0, 0, 0.4);
+}

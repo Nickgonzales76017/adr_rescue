@@ -1,0 +1,27 @@
+.home {
+	//display: flex;
+	//flex-direction: column;
+	//align-items: center;
+	margin: 0;
+	color: #F7F0DC;
+	background-color: #F2DEC6;
+	width: 90rem;
+	float: left;
+	color: black;
+	padding: 10rem;
+  }
+  
+  .hero_services {
+	height: 50rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	position: relative;
+	color: white;
+  }
+
+
+.content{
+	width: 100%
+}
